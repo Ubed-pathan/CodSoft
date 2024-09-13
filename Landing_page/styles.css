@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #FFF4EA;
+    color: #333;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #C96868;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;          /* Positions it at the top */
+    width: 100%;     /* Makes the navbar take the full width */
+    z-index: 1000; 
+} 
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem; /* Space between each link */
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    margin-top: 78px;
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.cta {
+    display: inline-block;
+    background: #ff6600; /* Background color for Learn More button */
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from the button */
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+    background: #e55b00; /* Darker background color on hover */
+}
+
+.cta1 {
+    display: inline-block;
+    background: #ff6600; /* Background color for Learn More button */
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from the button */
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta1:hover {
+    background: #e55b00; /* Darker background color on hover */
+}
+
+main {
+    padding: 2rem 0;
+}
+.about_name
+{
+    margin-bottom: 10px;
+}
+.about {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.services {
+    padding: 4rem 0;
+    text-align: center; /* Center the heading */
+}
+
+.service-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjusts the number of columns based on screen size */
+    gap: 1rem;
+    justify-content: center; /* Center grid items horizontally */
+}
+
+.service-card {
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.service-card h3 {
+    margin: 1rem 0;
+}
+
+.service-card p {
+    color: #666;
+}
+
+.contact {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.contact_name{
+    margin-bottom: 10px;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contact-icons a {
+    color: #C96868;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.register {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.register form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px; /* Center the form */
+    margin: 0 auto; /* Center the form horizontally */
+    margin-top: 10px;
+}
+
+.register input, .register select {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.register button {
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+footer {
+    background: #C96868;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
